@@ -1,0 +1,6 @@
+area,recurso,costo_por_unidad,beneficio_por_unidad,minimo,maximo
+Atencion,Personal operativo,120,190,2,8
+Atencion,Horas extra,80,120,0,5
+Reportes,Automatizacion,200,420,1,4
+Datos,Depuracion,150,260,1,6
+Soporte,Capacitacion,100,180,0,4

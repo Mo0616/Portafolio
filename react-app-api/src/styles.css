@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f6f8;
+  color: #182026;
+}
+
+button {
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.screen {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background:
+    linear-gradient(rgba(242, 246, 248, 0.84), rgba(242, 246, 248, 0.92)),
+    url('https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?auto=format&fit=crop&w=1600&q=80') center/cover;
+}
+
+.game-panel {
+  width: min(1040px, 100%);
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
+  gap: 32px;
+  align-items: center;
+}
+
+.game-copy h1 {
+  max-width: 520px;
+  margin: 0 0 16px;
+  font-size: 48px;
+  line-height: 1.05;
+}
+
+.game-copy p {
+  max-width: 480px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.eyebrow {
+  color: #147c72;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.question-zone {
+  background: #ffffff;
+  border: 1px solid #d7e0e5;
+  border-radius: 8px;
+  padding: 28px;
+  box-shadow: 0 24px 60px rgba(13, 32, 45, 0.16);
+}
+
+.progress {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.question-zone h2 {
+  min-height: 96px;
+  margin: 0 0 24px;
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.answers {
+  display: grid;
+  gap: 12px;
+}
+
+.answers button {
+  min-height: 54px;
+  padding: 14px 16px;
+  background: #e7eef1;
+  color: #182026;
+  text-align: left;
+}
+
+.answers button:hover {
+  background: #d7e5e9;
+}
+
+.answers .correct {
+  background: #bfead7;
+}
+
+.answers .wrong {
+  background: #ffd1c8;
+}
+
+.feedback {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  min-height: 72px;
+  margin-top: 20px;
+}
+
+.feedback p {
+  margin: 0;
+  font-weight: 700;
+}
+
+.feedback button {
+  min-height: 44px;
+  padding: 10px 16px;
+  background: #147c72;
+  color: #ffffff;
+}
+
+@media (max-width: 780px) {
+  .screen {
+    align-items: start;
+    padding: 18px;
+  }
+
+  .game-panel {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .game-copy h1 {
+    font-size: 36px;
+  }
+
+  .question-zone {
+    padding: 20px;
+  }
+
+  .question-zone h2 {
+    min-height: auto;
+    font-size: 24px;
+  }
+
+  .feedback {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,13 @@
+cliente,edad,canal,region,compras_mensuales,tiempo_respuesta_min,satisfecho
+1,24,Web,Cauca,4,12,Si
+2,39,Presencial,Cauca,2,35,No
+3,31,Web,Valle,6,9,Si
+4,45,Telefono,Narino,1,42,No
+5,28,Web,Cauca,5,15,Si
+6,52,Presencial,Valle,2,31,No
+7,35,Telefono,Cauca,3,24,Si
+8,22,Web,Narino,4,18,Si
+9,41,Presencial,Cauca,1,38,No
+10,33,Web,Valle,7,11,Si
+11,48,Telefono,Valle,2,33,No
+12,27,Web,Cauca,5,14,Si

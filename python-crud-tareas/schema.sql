@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS tareas (
+    id SERIAL PRIMARY KEY,
+    titulo VARCHAR(160) NOT NULL,
+    descripcion TEXT,
+    estado VARCHAR(20) NOT NULL DEFAULT 'pendiente',
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
