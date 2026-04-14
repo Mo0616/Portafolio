@@ -22,4 +22,3 @@ Mostrar evidencia minima y ordenada de los proyectos mencionados en mi hoja de v
 
 - Los datos incluidos son ficticios y estan creados solo para demostracion.
 - Cada carpeta contiene su propio `README.md` con instrucciones de uso.
-- `python-crud-tareas` ya existia antes de esta organizacion del portafolio.
