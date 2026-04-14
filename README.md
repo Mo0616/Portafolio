@@ -1,5 +1,7 @@
 # Portafolio - Michael Ordonez
 
+Diversos proyectos realizados tanto personalmente como en mi universidad.
+
 Este repositorio agrupa proyectos de portafolio alineados con mi hoja de vida como desarrollador full-stack en formacion, con experiencia en Python, JavaScript/React, C#, SQL, analisis de datos y optimizacion con Excel.
 
 ## Proyectos
